@@ -8,7 +8,7 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Music Downloader Bot 🎵
+Hey [{}](tg://user?id={}), I'm 🎼 ᴍᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ 🎧
 
 🌷 jυѕт ѕend мe тнe ѕong naмe yoυ wanт тo download.
 🌷 Ex-:```/song Alone```
