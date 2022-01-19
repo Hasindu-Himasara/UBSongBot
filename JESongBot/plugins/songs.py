@@ -44,7 +44,7 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Found Nothing.\n\nTry another keywork or maybe spell it properly."
+            "🌷 Watch Tutorial Video 👉 https://t.me/SLStockMusic/15816 ✅"
         )
         print(str(e))
         return
