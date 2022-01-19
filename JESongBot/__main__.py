@@ -11,7 +11,7 @@ pm_start_text = """
 Hey [{}](tg://user?id={}), I'm 🎼 ᴍᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ 🎧
 
 🌷 jυѕт ѕend мe тнe ѕong naмe yoυ wanт тo download.
-🌷 Ex-:```/song Alone```
+🌷 Ex-: `/song Alone`
 
 🌷 **Inbox & Groups Supported**
 ♻️ **24 Hour Active**
