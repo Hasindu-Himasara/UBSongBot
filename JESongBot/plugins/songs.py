@@ -44,11 +44,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "🌷 Watch Tutorial Video 👉 https://t.me/SLStockMusic/15816 ✅"
+            "[🌷 Watch Tutorial Video](https://t.me/SLStockMusic/15847)"
         )
         print(str(e))
         return
-    m.edit("\n⚙️ Converting to MP3 Audio 🎵...\n🌷 Wait 1 Min")
+    m.edit("\n⚙️ Converting to MP3 Audio 🎵\n🌷 Wait 1 Min")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
