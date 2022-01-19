@@ -8,12 +8,14 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), I'm Music Downloader Bot 🎵
 
-😉 Just send me the song name you want to download.😋
-      eg:```/song Faded```
-      
-A bot by @Uvindu_Bro 🇱🇰
+🌷 jυѕт ѕend мe тнe ѕong naмe yoυ wanт тo download.
+🌷 Ex-:```/song Alone```
+
+🌷 **Inbox & Groups Supported**
+♻️ **24 Hour Active**
+
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +28,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/UvinduBr"
+                        text="☘ Join ☘", url="https://t.me/SLStockMusic"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Uvindu_Bro"
+                        text="🎧 Støck Mυѕιc 🎧", url="https://t.me/SLStockMusic"
                     )
                 ]
             ]
@@ -40,5 +42,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ UBSongBot is online.")
+LOGGER.info("✅ Music Downloader Bot is online.")
 idle()
